@@ -4,6 +4,12 @@ This is a frontend dashboard built with **React** and **Tailwind CSS**, designed
 
 The project uses **Papa Parse** to convert CSV files into JSON format for easier data processing and visualization.
 
+
+## 🔗 Live Demo
+
+Check out the live site here: [https://ev-eosin.vercel.app/](https://ev-eosin.vercel.app/)
+
+
 ## Features
 
 - **Interactive Dashboard:** Visualize EV data in an easy-to-understand layout.
