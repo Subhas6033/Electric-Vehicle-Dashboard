@@ -1,12 +1,59 @@
-# React + Vite
+# Electric Vehicle Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a frontend dashboard built with **React** and **Tailwind CSS**, designed to visualize electric vehicle (EV) data. The dashboard allows users to explore various metrics, charts, and tables related to electric vehicles, such as VIN, County, Make, Model Year, Electric Range, and more. It includes a search feature to filter data based on City, Country, Company, Model, and Year.
 
-Currently, two official plugins are available:
+The project uses **Papa Parse** to convert CSV files into JSON format for easier data processing and visualization.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Interactive Dashboard:** Visualize EV data in an easy-to-understand layout.
+- **CSV Parsing:** Uses Papa Parse to convert CSV data into JSON for display and interaction.
+- **Search and Filter:** Search and filter EV data by City, Country, Company, Model, and Year.
+- **Data Tables:** Display EV information in a structured table format.
+- **Charts and Graphs:** Visualize data trends using interactive charts (e.g., electric range vs. model year).
+- **Responsive Design:** Fully responsive and mobile-friendly UI using Tailwind CSS.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Tech Stack
+
+- **Frontend:** React, Tailwind CSS
+- **CSV to JSON:** [Papa Parse](https://www.papaparse.com/)
+- **Charts:** Recharts
+- **Data Source:** CSV dataset of electric vehicles (converted to JSON via Papa Parse)
+
+## Installation
+
+1. Clone this repository:
+
+    ```bash
+    git clone https://github.com/your-username/EV.git
+    ```
+
+2. Navigate to the project folder:
+
+    ```bash
+    cd EV
+    ```
+
+3. Install the dependencies:
+
+    ```bash
+    npm install
+    ```
+
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and go to `http://localhost:3000` to view the dashboard.
+
+## Usage
+
+- Upload or load a CSV file with EV data.
+- The data will be parsed into JSON using Papa Parse.
+- Use the search and filter options to explore and narrow down the dataset.
+- View the results in dynamic charts and structured tables.
+
+
+
